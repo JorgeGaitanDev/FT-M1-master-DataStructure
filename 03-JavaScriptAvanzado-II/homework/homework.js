@@ -20,7 +20,7 @@ function counter() {
   otroContador()      // 3
    */
     var contador = 1;
-   return function () {
+   return function () { //bien
 
    return contador++;
    }

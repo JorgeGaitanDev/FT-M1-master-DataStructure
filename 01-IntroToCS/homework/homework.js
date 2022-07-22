@@ -11,7 +11,7 @@ function BinarioADecimal(num) {
 
 function DecimalABinario(num) {
   // tu codigo aca
-let number = num;
+let number = num; //bien
   let binario = (number % 2).toString();
   for (;number > 1;) {
     number = parseInt(number / 2);
